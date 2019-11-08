@@ -16,5 +16,6 @@ Suggests:
     spelling
 Imports: 
     curl,
-    jsonlite
+    jsonlite,
+    magnitrr
 Language: en-US
