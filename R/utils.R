@@ -43,6 +43,4 @@ office_ids <- list(
   USC_Sandomierska = "1add8722-fe63-45aa-95c8-cf7f0ddd1fe0"
 )
 
-office_ids <- office_ids %>% 
-  data.frame() %>%
-  tidyr::gather(key = 'office', value = 'id')
+office_ids <- tidyr::gather(data.frame(office_ids),key = 'office', value = 'id')
