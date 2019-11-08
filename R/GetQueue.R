@@ -21,7 +21,7 @@ office_ids <- list(
   USC_Klopotowskiego = "66a08fa0-a9d4-4f16-be73-08c6fa0c20d2",
   USC_Falecka = "06b7c4bd-123d-4ea7-8de1-eb749a56560f",
   USC_Sandomierska = "1add8722-fe63-45aa-95c8-cf7f0ddd1fe0"
-  # Pozostałe zwracają "Nieautoryzowany dostęp do danych". Chyba bez API-key się nie obejdzie
+  # Pozostałe zwracają "Nieautoryzowany dostęp do danych". Chyba bez API-key się nie obejdzie
 )
 
 #' @title function GetAvailableOfficeAcronyms
@@ -41,11 +41,6 @@ GetAvailableOfficeAcronyms <- function(){
 #' \item grupy - a \code{data.frame} with the data concerning the queues.
 #' \item time - an hour of the request, as a \code{character}.
 #' }
-#' @examples 
-#' data <- GetQueue(office_acronym = "UD-Bielany")
-#' grupy <- data[["result"]][["grupy"]]
-#' # What's the mean time of service?
-#' mean(as.numeric(grupy[["czasObslugi"]]))
 #' @export
 GetQueue <- function(office_acronym="UD_Ochota"){
   # change to import from/depends
