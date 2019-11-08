@@ -1,4 +1,4 @@
-library(magrittr)
+#library(magrittr)
 
 base_url <- "https://api.um.warszawa.pl/api/action/wsstore_get"
 
