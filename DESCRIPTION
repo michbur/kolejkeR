@@ -17,5 +17,6 @@ Suggests:
 Imports: 
     curl,
     jsonlite,
-    magrittr
+    magrittr,
+    tidyr
 Language: en-US
