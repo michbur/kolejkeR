@@ -17,5 +17,5 @@ Suggests:
 Imports: 
     curl,
     jsonlite,
-    magnitrr
+    magrittr
 Language: en-US
