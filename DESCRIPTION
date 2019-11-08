@@ -18,5 +18,6 @@ Imports:
     curl,
     jsonlite,
     magrittr,
-    tidyr
+    tidyr,
+    httptest
 Language: en-US
